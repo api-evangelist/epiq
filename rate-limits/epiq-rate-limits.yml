@@ -1,0 +1,57 @@
+name: Epiq API Rate Limits
+description: Epiq does not publicly document specific API rate limits. As an enterprise B2B platform, rate limits are negotiated per contract and service line. The following reflects general guidance based on Epiq's SLA commitments and enterprise deployment patterns.
+url: https://www.epiqglobal.com/en-us/service-level-agreement
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - api: AACER Bankruptcy API
+    description: Rate limits for AACER API access are not publicly documented. Limits are determined by contract terms with the AACER team and vary by portfolio size and query frequency. Contact the AACER team for specifics.
+    limits:
+      - type: Requests
+        scope: Contract-defined
+        notes: Negotiated per client engagement. Designed to support system-to-system data transmission with major servicing applications.
+    contact:
+      email: costheimer@epiqglobal.com
+      url: https://www.aacer.com
+
+  - api: Epiq eDiscovery API (Epiq Discover)
+    description: Rate limits for eDiscovery API integrations are not publicly documented. Access is provided through the Epiq Access portal and governed by enterprise contract terms.
+    limits:
+      - type: Requests
+        scope: Contract-defined
+        notes: Enterprise contracts specify volume thresholds. Integration with Relativity and RelativityOne follows platform-level limits.
+    contact:
+      url: https://www.epiqglobal.com/en-us/contact-us
+
+  - api: EpiqPay Payment API
+    description: Rate limits for EpiqPay disbursement APIs are not publicly documented. Payment processing volumes are defined by settlement administration agreements and court orders for class action settlements.
+    limits:
+      - type: Payment Transactions
+        scope: Settlement-defined
+        notes: Volume determined by class action settlement size and court-approved administration plan.
+    contact:
+      url: https://www.epiqglobal.com/en-us/contact-us
+
+  - api: EpiqFiling Claims API
+    description: Rate limits for EpiqFiling securities claims APIs are not publicly documented. Claims submission volumes are governed by settlement filing windows and class action case parameters.
+    limits:
+      - type: Claims Submissions
+        scope: Case-defined
+        notes: Volume governed by settlement filing deadlines and case-specific parameters.
+    contact:
+      url: https://www.epiqglobal.com/en-us/contact-us
+
+slaUptime:
+  commitment: 99.5%
+  measurement: Monthly Uptime Percentage
+  formula: "(Total Minutes in Month - Downtime Minutes) / Total Minutes in Month × 100"
+  excludedDowntime:
+    - Scheduled maintenance windows
+    - Emergency maintenance
+    - Force majeure events
+    - Client-caused outages
+    - Client infrastructure failures
+    - Third-party service failures
+    - Trial service usage
+  creditClaimWindow: 7 calendar days from incident
+  creditIssuance: Within two billing cycles

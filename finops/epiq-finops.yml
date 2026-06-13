@@ -1,0 +1,71 @@
+name: Epiq API FinOps
+description: Financial operations guidance for managing Epiq API costs. Epiq uses an enterprise custom pricing model with no public rate cards. All cost management is handled through contract negotiation and Epiq's service credit framework under their published SLA.
+url: https://www.epiqglobal.com/en-us/service-level-agreement
+created: '2026-06-13'
+modified: '2026-06-13'
+pricingModel:
+  type: Custom Enterprise
+  selfServe: false
+  publicPricing: false
+  trialAvailable: true
+  trialType: Sales-guided evaluation with limited support and no SLA
+  notes: All pricing is scoped per project, service line, and transaction volume. Contact Epiq sales for a customized quote.
+  contact: https://www.epiqglobal.com/en-us/contact-us
+
+costDrivers:
+  - name: API Call Volume
+    description: Number of system-to-system API requests, particularly for AACER bankruptcy case queries and monitoring events.
+    apis:
+      - AACER Bankruptcy API
+    notes: Volume determined by portfolio size and monitoring frequency.
+
+  - name: Data Volume
+    description: Volume of eDiscovery data processed, hosted, and reviewed through Epiq Discover and related platforms.
+    apis:
+      - Epiq eDiscovery API
+    units: GB or TB per month
+    notes: Processing and hosting are common cost centers in eDiscovery engagements.
+
+  - name: Payment Transactions
+    description: Number and value of disbursement transactions through EpiqPay for class action and settlement payments.
+    apis:
+      - EpiqPay Payment API
+    notes: Fee structures vary by settlement size and payment network selection.
+
+  - name: Claims Submissions
+    description: Volume of securities claims submitted and managed through EpiqFiling.
+    apis:
+      - EpiqFiling Claims API
+    notes: Costs tied to filing window duration and total claim counts.
+
+  - name: Support Tier Usage
+    description: Escalated incidents (P1/P2) triggering 24/7 support response may carry additional costs depending on contract terms.
+    notes: Included in paid production contracts; not available under trial services.
+
+costOptimization:
+  - strategy: Negotiate volume tiers
+    description: Request tiered pricing for high-volume AACER API calls and eDiscovery data to lower per-unit costs as usage scales.
+  - strategy: Monitor SLA credits
+    description: Track uptime monthly and submit credit claims within 7 days of incidents to recover costs from any SLA breaches.
+  - strategy: Evaluate trial before commit
+    description: Use Epiq's trial services period to validate integration before committing to full paid production contracts.
+  - strategy: Consolidate service lines
+    description: Bundling AACER, eDiscovery, and class action services under a single enterprise agreement may yield better pricing than individual service contracts.
+
+serviceCreditFramework:
+  description: Epiq provides service credits for SLA violations on paid production services.
+  credits:
+    - condition: Monthly uptime 99.0% - 99.49%
+      credit: 10% of monthly fee
+    - condition: Monthly uptime 95.0% - 98.99%
+      credit: 25% of monthly fee
+    - condition: Monthly uptime below 95.0%
+      credit: 100% of monthly fee
+    - condition: Missing P1 response time target
+      credit: 15% of monthly fee
+    - condition: Missing P2 response time target
+      credit: 10% of monthly fee
+  claimProcess:
+    deadline: 7 calendar days from incident
+    issuanceTiming: Within two billing cycles
+    url: https://www.epiqglobal.com/en-us/service-level-agreement

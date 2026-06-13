@@ -1,0 +1,72 @@
+name: Epiq API Plans and Pricing
+description: Epiq does not publish self-serve API pricing publicly. All API access is enterprise-only and requires direct engagement with Epiq sales or the AACER team. Pricing is scoped per project, volume, and service line. Trial services receive best-efforts support with no SLA guarantees.
+url: https://www.epiqglobal.com/en-us/contact-us
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Trial Services
+    description: Limited access to Epiq services for evaluation purposes. Best-efforts support basis with no service credits or SLA guarantees. Available for prospective clients during sales engagement.
+    type: Trial
+    pricing:
+      model: Contact Sales
+    features:
+      - Best-efforts uptime support
+      - No service credits
+      - Limited access to platform features
+      - Sales-guided onboarding
+    support:
+      - type: Contact Form
+        url: https://www.epiqglobal.com/en-us/contact-us
+
+  - name: Paid Production Services
+    description: Full access to Epiq API services in a production environment. Covered by Epiq's SLA with 99.5% monthly uptime commitment, 24/7 support for critical incidents, and service credits for SLA violations. Pricing customized by service line and volume.
+    type: Enterprise
+    pricing:
+      model: Custom / Contact Sales
+    features:
+      - 99.5% monthly uptime SLA
+      - 24/7 P1/P2 incident support
+      - Service credits for SLA violations
+      - AACER bankruptcy API access
+      - eDiscovery platform integration
+      - EpiqPay payment disbursement
+      - EpiqFiling claims management
+      - Access to Epiq Access client portal
+      - Identity provider integration (OKTA, etc.)
+      - Multi-factor authentication
+      - Power BI reporting dashboards
+    support:
+      - type: P1 Critical (24/7)
+        responseTime: 30 minutes
+      - type: P2 High (24/7)
+        responseTime: 2 hours
+      - type: P3 Medium (Business Hours)
+        responseTime: 4 hours
+      - type: P4 Low (Business Hours)
+        responseTime: 8 hours
+      - type: Contact Form
+        url: https://www.epiqglobal.com/en-us/contact-us
+    serviceCredits:
+      - uptime: 99.0-99.49%
+        credit: 10%
+      - uptime: 95.0-98.99%
+        credit: 25%
+      - uptime: below 95.0%
+        credit: 100%
+
+  - name: AACER Bankruptcy API
+    description: Dedicated API access for real-time bankruptcy case data retrieval, portfolio monitoring, and loan notifications. Targeted at mortgage servicers, financial institutions, and legal technology firms needing automated bankruptcy data feeds.
+    type: Enterprise Add-On
+    pricing:
+      model: Contact AACER Team
+      contact: costheimer@epiqglobal.com
+    features:
+      - Real-time bankruptcy case coversheet retrieval
+      - Portfolio monitoring with suspend/resume controls
+      - Traditional loan notification management
+      - System-to-system data transmission
+      - Integration with major servicing applications
+    support:
+      - type: AACER Team
+        email: costheimer@epiqglobal.com
+        url: https://www.aacer.com
