@@ -1,0 +1,173 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "epiq": "https://api-evangelist.github.io/epiq/vocab#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "legal": "https://schema.org/LegalService",
+
+    "caseId": {
+      "@id": "epiq:caseId",
+      "@type": "xsd:string"
+    },
+    "caseNumber": {
+      "@id": "epiq:caseNumber",
+      "@type": "xsd:string"
+    },
+    "caseChapter": {
+      "@id": "epiq:caseChapter",
+      "@type": "xsd:string"
+    },
+    "caseTitle": {
+      "@id": "epiq:caseTitle",
+      "@type": "xsd:string"
+    },
+    "filingDate": {
+      "@id": "epiq:filingDate",
+      "@type": "xsd:date"
+    },
+    "court": {
+      "@id": "epiq:court",
+      "@type": "xsd:string"
+    },
+    "district": {
+      "@id": "epiq:district",
+      "@type": "xsd:string"
+    },
+    "debtor": {
+      "@id": "epiq:debtor",
+      "@type": "xsd:string"
+    },
+    "trustee": {
+      "@id": "epiq:trustee",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "epiq:status",
+      "@type": "xsd:string"
+    },
+    "closedDate": {
+      "@id": "epiq:closedDate",
+      "@type": "xsd:date"
+    },
+
+    "claimId": {
+      "@id": "epiq:claimId",
+      "@type": "xsd:string"
+    },
+    "claimNumber": {
+      "@id": "epiq:claimNumber",
+      "@type": "xsd:string"
+    },
+    "claimantName": {
+      "@id": "epiq:claimantName",
+      "@type": "xsd:string"
+    },
+    "claimAmount": {
+      "@id": "epiq:claimAmount",
+      "@type": "xsd:decimal"
+    },
+    "claimStatus": {
+      "@id": "epiq:claimStatus",
+      "@type": "xsd:string"
+    },
+    "submittedDate": {
+      "@id": "epiq:submittedDate",
+      "@type": "xsd:dateTime"
+    },
+    "approvedAmount": {
+      "@id": "epiq:approvedAmount",
+      "@type": "xsd:decimal"
+    },
+
+    "settlementId": {
+      "@id": "epiq:settlementId",
+      "@type": "xsd:string"
+    },
+    "settlementName": {
+      "@id": "epiq:settlementName",
+      "@type": "xsd:string"
+    },
+    "totalFund": {
+      "@id": "epiq:totalFund",
+      "@type": "xsd:decimal"
+    },
+    "currency": {
+      "@id": "epiq:currency",
+      "@type": "xsd:string"
+    },
+    "paymentMethod": {
+      "@id": "epiq:paymentMethod",
+      "@type": "xsd:string"
+    },
+    "paymentStatus": {
+      "@id": "epiq:paymentStatus",
+      "@type": "xsd:string"
+    },
+    "disbursementDate": {
+      "@id": "epiq:disbursementDate",
+      "@type": "xsd:date"
+    },
+    "paymentAmount": {
+      "@id": "epiq:paymentAmount",
+      "@type": "xsd:decimal"
+    },
+    "transactionId": {
+      "@id": "epiq:transactionId",
+      "@type": "xsd:string"
+    },
+
+    "matterId": {
+      "@id": "epiq:matterId",
+      "@type": "xsd:string"
+    },
+    "matterName": {
+      "@id": "epiq:matterName",
+      "@type": "xsd:string"
+    },
+    "custodian": {
+      "@id": "epiq:custodian",
+      "@type": "xsd:string"
+    },
+    "documentCount": {
+      "@id": "epiq:documentCount",
+      "@type": "xsd:integer"
+    },
+    "reviewStatus": {
+      "@id": "epiq:reviewStatus",
+      "@type": "xsd:string"
+    },
+    "processingJob": {
+      "@id": "epiq:processingJob",
+      "@type": "xsd:string"
+    },
+    "holdStatus": {
+      "@id": "epiq:holdStatus",
+      "@type": "xsd:string"
+    },
+
+    "portfolioId": {
+      "@id": "epiq:portfolioId",
+      "@type": "xsd:string"
+    },
+    "loanNumber": {
+      "@id": "epiq:loanNumber",
+      "@type": "xsd:string"
+    },
+    "notificationType": {
+      "@id": "epiq:notificationType",
+      "@type": "xsd:string"
+    },
+    "alertDate": {
+      "@id": "epiq:alertDate",
+      "@type": "xsd:dateTime"
+    },
+
+    "provider": "schema:provider",
+    "organization": "schema:Organization",
+    "legalService": "schema:LegalService",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url"
+  }
+}

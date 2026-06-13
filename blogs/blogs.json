@@ -1,0 +1,14 @@
+{
+  "repo": "epiq",
+  "feeds": [
+    {
+      "source": "https://www.epiqglobal.com/en-us/insights",
+      "feed_url": "https://www.epiqglobal.com/en-us/insights",
+      "title": "Epiq Insights",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-13T00:00:00Z"
+}
