@@ -95,6 +95,8 @@ apis:
         url: https://www.epiqglobal.com/en-us/contact-us
 
 common:
+  - type: DomainSecurity
+    url: security/epiq-domain-security.yml
   - type: Portal
     url: https://access.epiqglobal.com/
   - type: Website
