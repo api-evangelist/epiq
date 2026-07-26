@@ -1,10 +1,22 @@
 aid: epiq
 name: Epiq
 description: Epiq is a global legal operations and technology company providing REST APIs for case management, eDiscovery, settlement administration, bankruptcy services, and class action claims processing. Their API suite includes AACER for real-time bankruptcy case data retrieval and monitoring, EpiqFiling for securities claims management, and EpiqPay for settlement payment disbursement.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/epiq.png
 url: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/apis.yml
 created: '2026-06-13'
-modified: '2026-06-13'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 type: Index
 tags:
@@ -75,25 +87,6 @@ apis:
       - FN: Epiq Class Action Team
         url: https://www.epiqglobal.com/en-us/contact-us
 
-  - name: EpiqFiling Claims API
-    description: EpiqFiling manages securities class action claims in one secure portal, providing APIs to file, track, and review claims. Enables automated claims submission, status tracking, and reporting for securities settlement administration.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling
-    baseURL: https://access.epiqglobal.com
-    tags:
-      - Claims
-      - Securities
-      - Class Action
-      - Filing
-    properties:
-      - type: Documentation
-        url: https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling
-      - type: Portal
-        url: https://access.epiqglobal.com/
-    contact:
-      - FN: Epiq Class Action Team
-        url: https://www.epiqglobal.com/en-us/contact-us
-
 common:
   - type: DomainSecurity
     url: security/epiq-domain-security.yml
@@ -111,6 +104,8 @@ common:
     url: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/rate-limits/epiq-rate-limits.yml
   - type: FinOps
     url: https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/finops/epiq-finops.yml
+  - type: Investors
+    url: https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

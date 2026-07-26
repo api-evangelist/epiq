@@ -83,12 +83,6 @@ EpiqPay is Epiq's proprietary platform facilitating digital settlement payments.
 - [Documentation](https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqpay)
 - [Portal](https://access.epiqglobal.com/)
 
-### EpiqFiling Claims API
-
-EpiqFiling manages securities class action claims in one secure portal, providing APIs to file, track, and review claims. Enables automated claims submission, status tracking, and reporting for securities settlement administration.
-
-- **Human URL:** [https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling](https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling)
-- **Base URL:** `https://access.epiqglobal.com`
 
 #### Tags
 
