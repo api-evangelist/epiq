@@ -1,6 +1,17 @@
 aid: epiq
 name: Epiq
 description: Epiq is a global legal operations and technology company providing REST APIs for case management, eDiscovery, settlement administration, bankruptcy services, and class action claims processing. Their API suite includes AACER for real-time bankruptcy case data retrieval and monitoring, EpiqFiling for securities claims management, and EpiqPay for settlement payment disbursement.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
