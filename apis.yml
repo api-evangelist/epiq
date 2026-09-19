@@ -88,6 +88,11 @@ apis:
       - Payments
       - Class Action
       - Settlement
+      - Disbursements
+    tags_raw:
+      - Payments
+      - Class Action
+      - Settlement
       - Disbursement
     properties:
       - type: Documentation
