@@ -36,6 +36,15 @@ tags:
   - Bankruptcy
   - Class Action
   - Settlement Administration
+  - Legal Tech
+  - Case Management
+  - Document Review
+tags_raw:
+  - Legal
+  - eDiscovery
+  - Bankruptcy
+  - Class Action
+  - Settlement Administration
   - Legal Technology
   - Case Management
   - Document Review
@@ -66,6 +75,11 @@ apis:
     humanURL: https://www.epiqglobal.com/en-us/technologies/legal-solutions/epiq-discover
     baseURL: https://access.epiqglobal.com
     tags:
+      - eDiscovery
+      - Document Review
+      - Litigation
+      - Legal Tech
+    tags_raw:
       - eDiscovery
       - Document Review
       - Litigation
