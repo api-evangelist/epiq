@@ -1,3 +1,8 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
+generated: '2026-06-13'
 name: Epiq API Rate Limits
 description: Epiq does not publicly document specific API rate limits. As an enterprise B2B platform, rate limits are negotiated per contract and service line. The following reflects general guidance based on Epiq's SLA commitments and enterprise deployment patterns.
 url: https://www.epiqglobal.com/en-us/service-level-agreement

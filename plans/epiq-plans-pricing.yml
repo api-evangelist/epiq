@@ -1,3 +1,8 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (dated 2026-06-13 by the file itself), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
+generated: '2026-06-13'
 name: Epiq API Plans and Pricing
 description: Epiq does not publish self-serve API pricing publicly. All API access is enterprise-only and requires direct engagement with Epiq sales or the AACER team. Pricing is scoped per project, volume, and service line. Trial services receive best-efforts support with no SLA guarantees.
 url: https://www.epiqglobal.com/en-us/contact-us
