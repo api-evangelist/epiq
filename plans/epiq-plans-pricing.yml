@@ -75,3 +75,28 @@ plans:
       - type: AACER Team
         email: costheimer@epiqglobal.com
         url: https://www.aacer.com
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Trial Services
+    access: trial
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Paid Production Services
+    access: enterprise
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: AACER Bankruptcy API
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
