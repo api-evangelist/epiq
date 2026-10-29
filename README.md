@@ -1,4 +1,4 @@
-# Epiq (epiq)
+# Epiq
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,111 +66,108 @@
 
 Epiq is a global legal operations and technology company providing REST APIs for case management, eDiscovery, settlement administration, bankruptcy services, and class action claims processing. Their API suite includes AACER for real-time bankruptcy case data retrieval and monitoring, EpiqFiling for securities claims management, and EpiqPay for settlement payment disbursement.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/apis.yml)
+**Areas:** Legal · eDiscovery · Bankruptcy · Class Action · Settlement Administration · Legal Tech · Case Management · Document Review
 
-## Scope
+## Epiq on APIs.io
 
-- **Type:** Index
+Everything profiled for Epiq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/epiq/](https://apis.io/providers/epiq/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Legal
-- eDiscovery
-- Bankruptcy
-- Class Action
-- Settlement Administration
-- Legal Technology
-- Case Management
-- Document Review
+- [Epiq AACER Bankruptcy API](https://apis.io/apis/epiq/epiq-aacer-bankruptcy-api/) — The AACER API enables real-time bankruptcy case information to be electronically transmitted system-to-system, integrating with the industry's largest…
+- [Epiq eDiscovery API](https://apis.io/apis/epiq/epiq-ediscovery-api/) — Epiq Discover provides an open API and third-party integration support for eDiscovery workflows, enabling seamless adoption within client tech stacks.…
+- [EpiqPay Payment API](https://apis.io/apis/epiq/epiqpay-payment-api/) — EpiqPay is Epiq's proprietary platform facilitating digital settlement payments. Provides APIs for disbursing class action and settlement funds to claimants…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### Epiq AACER Bankruptcy API
+Linked-data contexts for the provider's vocabulary.
 
-The AACER API enables real-time bankruptcy case information to be electronically transmitted system-to-system, integrating with the industry's largest servicing applications and proprietary systems. Supports case coversheet retrieval, portfolio monitoring, and loan notification management.
+- [Epiq Context](https://apis.io/jsonld/epiq/epiq-context/)
 
-- **Human URL:** [https://www.epiqglobal.com/en-us/services/bankruptcy-and-trustee-services/bankruptcy-services/api-integrations](https://www.epiqglobal.com/en-us/services/bankruptcy-and-trustee-services/bankruptcy-services/api-integrations)
-- **Base URL:** `https://access.epiqglobal.com`
+#### Security (1)
 
-#### Tags
+Authentication, trust centre, and vulnerability disclosure.
 
-- Bankruptcy
-- Case Management
-- Monitoring
-- Notification
+- [Epiq Domain Security](https://apis.io/security/epiq/epiq-domain-security/)
 
-#### Properties
+#### Plans and pricing (1)
 
-- [Documentation](https://www.epiqglobal.com/en-us/services/bankruptcy-and-trustee-services/bankruptcy-services/api-integrations)
-- [Product](https://www.epiqglobal.com/en-us/technologies/bankruptcy/epiq-aacer)
+Published plans, tiers and prices.
 
-### Epiq eDiscovery API
+- [Epiq Plans Pricing](https://apis.io/plans/epiq/epiq-plans-pricing/)
 
-Epiq Discover provides an open API and third-party integration support for eDiscovery workflows, enabling seamless adoption within client tech stacks. Supports preserving, processing, analyzing, reviewing, and producing data across litigation, investigations, and regulatory requests.
+#### Rate limits (1)
 
-- **Human URL:** [https://www.epiqglobal.com/en-us/technologies/legal-solutions/epiq-discover](https://www.epiqglobal.com/en-us/technologies/legal-solutions/epiq-discover)
-- **Base URL:** `https://access.epiqglobal.com`
+Published request limits.
 
-#### Tags
+- [Epiq Rate Limits](https://apis.io/rate-limits/epiq/epiq-rate-limits/)
 
-- eDiscovery
-- Document Review
-- Litigation
-- Legal Technology
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://www.epiqglobal.com/en-us/technologies/legal-solutions/epiq-discover)
-- [Portal](https://access.epiqglobal.com/)
+- [Epiq Finops](https://apis.io/finops/epiq/epiq-finops/)
 
-### EpiqPay Payment API
+## Where to find this API
 
-EpiqPay is Epiq's proprietary platform facilitating digital settlement payments. Provides APIs for disbursing class action and settlement funds to claimants via diverse payment networks including PayPal, Visa, and Amazon. Used in class action administration and mass tort settlement distribution.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- **Human URL:** [https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqpay](https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqpay)
-- **Base URL:** `https://access.epiqglobal.com`
-
-#### Tags
-
-- Payments
-- Class Action
-- Settlement
-- Disbursement
-
-#### Properties
-
-- [Documentation](https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqpay)
-- [Portal](https://access.epiqglobal.com/)
-
-
-#### Tags
-
-- Claims
-- Securities
-- Class Action
-- Filing
-
-#### Properties
-
-- [Documentation](https://www.epiqglobal.com/en-us/technologies/class-action-and-mass-tort-technologies/epiqfiling)
-- [Portal](https://access.epiqglobal.com/)
-
-## Common Properties
-
-- [Portal](https://access.epiqglobal.com/)
 - [Website](https://www.epiqglobal.com/)
-- [Service Level Agreement](https://www.epiqglobal.com/en-us/service-level-agreement)
-- [Contact](https://www.epiqglobal.com/en-us/contact-us)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/plans/epiq-plans-pricing.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/rate-limits/epiq-rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/epiq/refs/heads/main/finops/epiq-finops.yml)
+- [Blog](https://www.epiqglobal.com/en-us/about-us/newsroom)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 16.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/epiq/](https://apis.io/providers/epiq/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Epiq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/epiq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
